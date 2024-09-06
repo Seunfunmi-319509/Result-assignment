@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+ body{
+    max-width: 1440px;
+ }
+
+.container{
+    width: 350px;   
+    margin: 100px;
+    margin-left: 30%;
+    display: flex;
+    height: 320px;
+    background-color: white;
+}
+.container-1{
+    background: linear-gradient(#2e2be9, #7857ff);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 175px;
+}
+.scores{
+    background-color: #2e2be9;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.scores p{
+    line-height: 0px;
+    text-align: center;
+}
+
+.big{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.small{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+
+h5{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.container-2{
+    padding: 20px;
+    box-shadow: 5px 5px grey;
+    border-radius: 10px;
+    min-width: 175px;
+}
+.summary{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.Reaction span{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(0, 100%, 67%);
+}
+
+.Reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 12px;
+    width:90%;
+    border-radius: 10px;
+}
+
+.Memory span {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(39, 100%, 56%);
+}
+
+.Memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 12px;
+    width:90%;
+    border-radius: 10px;
+}
+
+.Verbal span {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(166, 100%, 37%);
+}
+
+.Verbal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 12px;
+    width:90%;
+    border-radius: 10px;
+}
+.Visual span {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(234, 85%, 45%);
+}
+
+.Visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 12px;
+    width:90%;
+    border-radius: 10px;
+}
+
+img{
+    height: 10px;
+    width: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 7px;
+    margin: auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        display: grid;
+    }
+}
