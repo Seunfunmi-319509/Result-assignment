@@ -3,175 +3,172 @@
     font-family: "Hanken Grotesk", sans-serif;
 }
 
- body{
-    max-width: 1440px;
- }
-
 .container{
-    width: 350px;   
-    margin: 100px;
-    margin-left: 30%;
     display: flex;
-    height: 320px;
-    background-color: white;
-}
-.container-1{
-    background: linear-gradient(#2e2be9, #7857ff);
-    padding: 20px;
-    border-radius: 10px;
-    min-width: 175px;
-}
-.scores{
-    background-color: #2e2be9;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    border-radius: 50%;
-    padding: 20px;
+    max-width: 800px;
+    justify-content: center;
+    height: 300px;
 }
 
-.scores p{
-    line-height: 0px;
-    text-align: center;
-}
-
-.big{
-    font-size: 50px;
-    font-weight: 800;
-    color: white;
-}
-.small{
-    font-size: 12px;
-    font-weight: 200;
-    color: white;
+.Result{
+    width: 200px;
+    background: linear-gradient(#2e2be9,#7857ff);
+    border-radius: 15px;
 }
 
 h5{
-    font-size: 12px;
-    font-weight: 200;
     color: white;
     text-align: center;
-    margin-top: 0px;
+    font-size: 10px;
+    font-weight: 200;
 }
+
+.scores{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+   margin: auto;
+    background: linear-gradient(#4e21ca, #2421ca00);
+    line-height: 1rem;
+}
+
+h3{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+}
+
+.scores p {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-weight: 200px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1rem;
+}
+
+.Summary{
+    background-color: white;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 2px 2px grey;
+}
+
 h4{
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    text-align: center;
-}
-
-h6{
     font-size: 12px;
-    font-weight: 200;
-    color: white;
-    text-align: center;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-}
-
-.container-2{
-    padding: 20px;
-    box-shadow: 5px 5px grey;
-    border-radius: 10px;
-    min-width: 175px;
-}
-.summary{
-    color: black;
-    font-size: 14px;
     font-weight: 600;
-    text-align: left;
+    margin-left: 10px;
 }
 
-.Reaction span{
-    font-size: 10px;
-    font-weight: 600;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: hsl(0, 100%, 67%);
-}
-
-.Reaction{
-    background-color: hsla(0, 100%, 67%, 0.1);
-    margin-bottom: 10px;
-    padding: 10px;
-    height: 12px;
-    width:90%;
+.Reaction-icon{
+    display: flex;
+    background-color:hsla(0, 100%, 67%, 0.1) ;
+    height: 30px;
     border-radius: 10px;
+    width: 160px;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    padding: 5px;
 }
-
-.Memory span {
-    font-size: 10px;
-    font-weight: 600;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: hsl(39, 100%, 56%);
-}
-
-.Memory{
-    background-color: hsla(39, 100%, 56%, 0.1);
-    margin-bottom: 10px;
-    padding: 10px;
-    height: 12px;
-    width:90%;
-    border-radius: 10px;
-}
-
-.Verbal span {
-    font-size: 10px;
-    font-weight: 600;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: hsl(166, 100%, 37%);
-}
-
-.Verbal{
-    background-color: hsla(166, 100%, 37%, 0.1);
-    margin-bottom: 10px;
-    padding: 10px;
-    height: 12px;
-    width:90%;
-    border-radius: 10px;
-}
-.Visual span {
-    font-size: 10px;
-    font-weight: 600;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: hsl(234, 85%, 45%);
-}
-
-.Visual {
-    background-color: hsla(234, 85%, 45%, 0.1);
-    margin-bottom: 10px;
-    padding: 10px;
-    height: 12px;
-    width:90%;
-    border-radius: 10px;
-}
-
 img{
     height: 10px;
     width: 10px;
 }
-
-button {
-    width: 100%;
-    background-color: hsl(224, 30%, 27%);
-    color: white;
+.first{
+    color: hsl(0, 100%, 67%);
     font-size: 10px;
-    font-weight: 400;
-    border-radius: 20px;
-    padding: 7px;
-    margin: auto;
-    justify-content: center;
+    font-weight: 400px;
+}
+.grade {
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+}
+.Memory-icon{
+    display: flex;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    height: 30px;
+    border-radius: 10px;
+    width: 160px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.second{
+    color: hsl(39, 100%, 56%);
+    font-size: 10px;
+    font-weight: 400px;
 }
 
-@media screen and (max-width: 375px) {
+.Verbal-icon {
+    display: flex;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    height: 30px;
+    border-radius: 10px;
+    width: 160px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.third{
+    color: hsl(166, 100%, 37%);
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.Visual-icon{
+    display: flex;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    height: 30px;
+    border-radius: 10px;
+    width: 160px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.fourth{
+    color: hsl(234, 85%, 45%);
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+button{
+    width: 180px;
+    margin-left: 10px;
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: #2e2be9;
+}
+
+@media screen (max-width:300px) {
     .container{
         display: grid;
     }
 }
+
+
+
